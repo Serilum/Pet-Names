@@ -1,9 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.petnames.forge.mixin",
+  "package": "com.natamus.petnames.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "petnames_forge.refmap.json",
   "mixins": [
 
   ],
