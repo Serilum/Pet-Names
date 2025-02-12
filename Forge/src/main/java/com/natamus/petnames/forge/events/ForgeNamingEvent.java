@@ -8,12 +8,10 @@ import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.event.entity.living.BabyEntitySpawnEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
-@EventBusSubscriber
 public class ForgeNamingEvent {
 	@SubscribeEvent
-	public void onBaby(BabyEntitySpawnEvent e) {
+	public static void onBaby(BabyEntitySpawnEvent e) {
 		Entity entity = e.getChild();
 		Level level = entity.level();
 		if (level.isClientSide) {
