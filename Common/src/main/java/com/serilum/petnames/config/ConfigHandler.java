@@ -1,7 +1,7 @@
-package com.natamus.petnames.config;
+package com.serilum.petnames.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.petnames.util.Reference;
+import com.serilum.petnames.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,10 +1,10 @@
-package com.natamus.petnames;
+package com.serilum.petnames;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveAnimalEvents;
-import com.natamus.petnames.events.NamingEvent;
-import com.natamus.petnames.util.Reference;
+import com.serilum.petnames.events.NamingEvent;
+import com.serilum.petnames.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.AgeableMob;

@@ -1,6 +1,6 @@
-package com.natamus.petnames.util;
+package com.serilum.petnames.util;
 
-import com.natamus.petnames.config.ConfigHandler;
+import com.serilum.petnames.config.ConfigHandler;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.animal.Cat;
 import net.minecraft.world.entity.animal.Wolf;

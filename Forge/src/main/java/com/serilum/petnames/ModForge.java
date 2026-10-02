@@ -1,10 +1,10 @@
-package com.natamus.petnames;
+package com.serilum.petnames;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.petnames.forge.config.IntegrateForgeConfig;
-import com.natamus.petnames.forge.events.ForgeNamingEvent;
-import com.natamus.petnames.util.Reference;
+import com.serilum.petnames.forge.config.IntegrateForgeConfig;
+import com.serilum.petnames.forge.events.ForgeNamingEvent;
+import com.serilum.petnames.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -32,7 +32,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeNamingEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeNamingEvent.class);
 	}
 
 	private static void setGlobalConstants() {

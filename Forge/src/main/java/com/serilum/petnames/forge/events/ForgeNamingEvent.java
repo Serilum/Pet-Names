@@ -1,6 +1,6 @@
-package com.natamus.petnames.forge.events;
+package com.serilum.petnames.forge.events;
 
-import com.natamus.petnames.events.NamingEvent;
+import com.serilum.petnames.events.NamingEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.Mob;

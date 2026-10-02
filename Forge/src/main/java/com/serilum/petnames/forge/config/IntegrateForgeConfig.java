@@ -1,7 +1,7 @@
-package com.natamus.petnames.forge.config;
+package com.serilum.petnames.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.petnames.util.Reference;
+import com.serilum.petnames.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

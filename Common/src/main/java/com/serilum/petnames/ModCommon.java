@@ -1,8 +1,8 @@
-package com.natamus.petnames;
+package com.serilum.petnames;
 
 import com.natamus.collective.config.GenerateJSONFiles;
-import com.natamus.petnames.config.ConfigHandler;
-import com.natamus.petnames.util.Reference;
+import com.serilum.petnames.config.ConfigHandler;
+import com.serilum.petnames.util.Reference;
 
 public class ModCommon {
 

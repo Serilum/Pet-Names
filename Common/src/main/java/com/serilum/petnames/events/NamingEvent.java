@@ -1,9 +1,9 @@
-package com.natamus.petnames.events;
+package com.serilum.petnames.events;
 
 import com.natamus.collective.functions.EntityFunctions;
 import com.natamus.collective.functions.StringFunctions;
-import com.natamus.petnames.config.ConfigHandler;
-import com.natamus.petnames.util.Util;
+import com.serilum.petnames.config.ConfigHandler;
+import com.serilum.petnames.util.Util;
 
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.AgeableMob;

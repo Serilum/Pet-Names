@@ -1,7 +1,7 @@
-package com.natamus.petnames.fabric.config;
+package com.serilum.petnames.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.petnames.util.Reference;
+import com.serilum.petnames.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 
